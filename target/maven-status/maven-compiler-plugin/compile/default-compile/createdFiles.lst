@@ -1,0 +1,5 @@
+com/rbecy/dao/StatisticMapper.class
+com/rbecy/model/domain/Article.class
+com/rbecy/web/BlogSystemApplication.class
+com/rbecy/dao/ArticleMapper.class
+com/rbecy/model/domain/Statistic.class

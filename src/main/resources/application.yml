@@ -1,0 +1,35 @@
+server:
+  port: 8024
+spring:
+  profiles:
+    # 外置 jdbc,redis,mail 配置文件
+    active: jdbc,redis,mail
+  #　配置国际化资源文件
+  messages:
+    basename: i18n.logo
+  # redis注解缓存时间
+  cache:
+    redis:
+      time-to-live: 900000
+
+# mybatis 配置
+mybatis:
+  configuration:
+    # 开启驼峰命名匹配映射
+    map-underscore-to-camel-case: true
+  # 配置 mybatis　的 xml 映射文件路径
+  mapper-locations: classpath:mapper/*.xml
+  # 配置 xml 映射文件中指定的实体类别名路径
+  type-aliases-package: com.rbecy.model.domain
+
+# pageHelper分页设置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+# 浏览器cookie相关设置
+COOKIE:
+  # 设置cookie默认时长为30分钟
+  VALIDITY: 1800

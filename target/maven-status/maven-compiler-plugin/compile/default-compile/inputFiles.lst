@@ -1,0 +1,5 @@
+/home/icetea/project/blog_system/src/main/java/com/rbecy/web/BlogSystemApplication.java
+/home/icetea/project/blog_system/src/main/java/com/rbecy/model/domain/Article.java
+/home/icetea/project/blog_system/src/main/java/com/rbecy/dao/ArticleMapper.java
+/home/icetea/project/blog_system/src/main/java/com/rbecy/model/domain/Statistic.java
+/home/icetea/project/blog_system/src/main/java/com/rbecy/dao/StatisticMapper.java
